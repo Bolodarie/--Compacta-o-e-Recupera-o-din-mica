@@ -4,11 +4,12 @@ Trabalho de Faculdade - Professor Orlando Figueiredo - Estrutura de dados II
 
 O objetivo do projeto é gerenciar um sistema de arquivos que gerência a locação de veículos de uma dada
 empresa. O sistema armazena as seguintes informações:
- Código do Cliente (CodCli)
- Código do Veículo (CodVei)
- Nome do Cliente
- Nome do Veículo
+ Código do Cliente (CodCli),
+ Código do Veículo (CodVei),
+ Nome do Cliente,
+ Nome do Veículo,
  Número de Dias
+
 A chave primária é composta pela composição “CodCli+CodVei”. Para simplificar, considere que um
 cliente pode alugar uma única vez um determinado carro (i.e., CodCli+CodVei será sempre único). O
 arquivo a ser criado deve ser binário de registros e campos de tamanho variável, com 1 byte no início do
