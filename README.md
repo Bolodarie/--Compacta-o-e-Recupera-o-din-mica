@@ -14,11 +14,11 @@ cliente pode alugar uma única vez um determinado carro (i.e., CodCli+CodVei ser
 arquivo a ser criado deve ser binário de registros e campos de tamanho variável, com 1 byte no início do
 registro como indicador de tamanho do registro, e com campos separados pelo caractere ‘|’.
 
--- Código do Cliente - 11 caracteres-  (fixo)
--- Código do Veículo - 7 caracteres - (fixo)
--- Nome do Cliente - 50 caracteres - (máximo)
--- Nome do Veículo - 50 caracteres - (máximo)
--- Número de Dias - int -(fixo ou caracteres)
+Código do Cliente - 11 caracteres-  (fixo)
+| Código do Veículo - 7 caracteres - (fixo)
+| Nome do Cliente - 50 caracteres - (máximo)
+| Nome do Veículo - 50 caracteres - (máximo)
+| Número de Dias - int -(fixo ou caracteres)|
 
 As seguintes funcionalidades deverão estar disponíveis:
 1. Inserção
